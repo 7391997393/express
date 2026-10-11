@@ -1,0 +1,13 @@
+[1mdiff --git a/.github/workflows/ai-code-review.yml b/.github/workflows/ai-code-review.yml[m
+[1mindex 33777a95..38563d22 100644[m
+[1m--- a/.github/workflows/ai-code-review.yml[m
+[1m+++ b/.github/workflows/ai-code-review.yml[m
+[36m@@ -10,7 +10,7 @@[m [mpermissions:[m
+  [m
+ jobs:[m
+   ai-review:[m
+[31m-    uses: 7391997393/ai-review-agentt/.github/workflows/reusable-ai-review.yml@main[m
+[32m+[m[32m    uses: 7391997393/ai-review-agentt/.github/workflows/reusable-ai-review.yml@feature/resolve-review-threads[m
+     with:[m
+       cg_model: ${{ vars.CG_MODEL }}[m
+       cg_base_url: ${{ vars.CG_BASE_URL }}[m
