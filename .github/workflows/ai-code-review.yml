@@ -16,3 +16,4 @@ jobs:
       cg_base_url: ${{ vars.CG_BASE_URL }}
     secrets:
       cg_api_key: ${{ secrets.CG_API_KEY }}
+      gh_pat: ${{secrets.GH_PAT}}
